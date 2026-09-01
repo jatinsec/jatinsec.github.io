@@ -1,0 +1,2640 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatin Patidar | Cybersecurity Researcher &amp; Penetration Tester</title>
+
+  <meta name="title" content="Jatin Patidar | Cybersecurity Researcher &amp; Penetration Tester">
+  <meta name="description"
+    content="Jatin Patidar is a cybersecurity researcher and BCA Cyber Security student focused on web application security, API security, vulnerability research, and responsible disclosure.">
+  <meta name="keywords"
+    content="Jatin Patidar, Cybersecurity Researcher, Penetration Tester, Bug Bounty, Web Application Security, API Security, Vulnerability Research, Responsible Disclosure, IDOR, BOLA, AuthN, AuthZ, Burp Suite">
+  <meta name="author" content="Jatin Patidar">
+  <meta name="theme-color" content="#08090b">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jatinpatel-hacker33.github.io/">
+  <meta property="og:title" content="Jatin Patidar | Cybersecurity Researcher &amp; Penetration Tester">
+  <meta property="og:description"
+    content="Finding security weaknesses before attackers do. Cybersecurity researcher focused on Web &amp; API security, IDOR/BOLA, and responsible disclosure.">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Jatin Patidar | Cybersecurity Researcher &amp; Penetration Tester">
+  <meta property="twitter:description"
+    content="Finding security weaknesses before attackers do. Cybersecurity researcher focused on Web &amp; API security, IDOR/BOLA, and responsible disclosure.">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2hpZWxkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGZmOWQiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwYjRkOCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwYTBmMTYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA1MDgwYyIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIAogIDwhLS0gT3V0ZXIgU2hpZWxkIEJvcmRlciAtLT4KICA8cGF0aCBkPSJNMzIgNCBMNTYgMTQgQzU2IDM4IDQ2IDU0IDMyIDYwIEMxOCA1NCA4IDM4IDggMTQgWiIgCiAgICAgICAgZmlsbD0idXJsKCNiZ0dyYWQpIiAKICAgICAgICBzdHJva2U9InVybCgjc2hpZWxkR3JhZCkiIAogICAgICAgIHN0cm9rZS13aWR0aD0iMyIvPgogICAgICAgIAogIDwhLS0gSW5uZXIgU2hpZWxkIERldGFpbCAtLT4KICA8cGF0aCBkPSJNMzIgMTAgTDUwIDE4IEM1MCAzNiA0MiA0OSAzMiA1NCBDMjIgNDkgMTQgMzYgMTQgMTggWiIgCiAgICAgICAgZmlsbD0ibm9uZSIgCiAgICAgICAgc3Ryb2tlPSIjMWEyZTNiIiAKICAgICAgICBzdHJva2Utd2lkdGg9IjEuNSIgCiAgICAgICAgc3Ryb2tlLWRhc2hhcnJheT0iMyAyIiAvPgoKICA8IS0tIFRlcm1pbmFsIFByb21wdCBTeW1ib2w6ID5fIC0tPgogIDxwYXRoIGQ9Ik0yMiAyNCBMMjkgMzEgTDIyIDM4IiAKICAgICAgICBmaWxsPSJub25lIiAKICAgICAgICBzdHJva2U9IiMwMGZmOWQiIAogICAgICAgIHN0cm9rZS13aWR0aD0iMy41IiAKICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiIAogICAgICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgICAgICAKICA8bGluZSB4MT0iMzMiIHkxPSIzOCIgeDI9IjQyIiB5Mj0iMzgiIAogICAgICAgIHN0cm9rZT0iIzAwYjRkOCIgCiAgICAgICAgc3Ryb2tlLXdpZHRoPSIzLjUiIAogICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+/* ====================================================
+   JATIN PATIDAR - PROFESSIONAL CYBERSECURITY PORTFOLIO
+   Design System: Minimal, Editorial, Refined Dark Aesthetic
+   ==================================================== */
+
+:root {
+  /* Dark Charcoal & Obsidian Palette */
+  --bg-main: #08090b;
+  --bg-subtle: #0e0f13;
+  --bg-surface: #13151b;
+  --bg-surface-hover: #181b22;
+  --bg-card: #101217;
+
+  /* Typography Colors */
+  --text-primary: #f4f4f6;
+  --text-secondary: #9496a1;
+  --text-tertiary: #6b6e79;
+  --text-dim: #454751;
+
+  /* Restrained Security Accents */
+  --accent-green: #10b981;
+  --accent-green-dim: rgba(16, 185, 129, 0.12);
+  --accent-green-border: rgba(16, 185, 129, 0.25);
+
+  --accent-blue: #38bdf8;
+  --accent-blue-dim: rgba(56, 189, 248, 0.1);
+  --accent-blue-border: rgba(56, 189, 248, 0.25);
+
+  --accent-purple: #a855f7;
+  --accent-purple-dim: rgba(168, 85, 247, 0.1);
+  --accent-purple-border: rgba(168, 85, 247, 0.25);
+
+  /* Subtle Dividers & Borders */
+  --border-line: rgba(255, 255, 255, 0.08);
+  --border-line-subtle: rgba(255, 255, 255, 0.04);
+  --border-line-hover: rgba(255, 255, 255, 0.16);
+
+  /* Typography Stacks */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Layout */
+  --max-width: 1120px;
+  --nav-height: 64px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ====================================================
+   BASE RESET
+   ==================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.25);
+  color: #ffffff;
+}
+
+/* Typography Base */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Container & Sections */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.section {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.border-top {
+  border-top: 1px solid var(--border-line);
+}
+
+/* Metadata & Badges */
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-green);
+  letter-spacing: 0.06em;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.section-heading {
+  font-size: clamp(1.75rem, 3.2vw, 2.35rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.section-subtext {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+.section-intro-text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 720px;
+  line-height: 1.65;
+  margin-bottom: 2.5rem;
+}
+
+.section-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.mono-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  border: 1px solid var(--border-line);
+  padding: 0.25rem 0.55rem;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+}
+
+/* ====================================================
+   BUTTONS
+   ==================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.65rem 1.15rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--text-primary);
+  color: var(--bg-main);
+  border-color: var(--text-primary);
+}
+
+.btn-primary:hover {
+  background: #ffffff;
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-primary);
+  border-color: var(--border-line);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-surface);
+  border-color: var(--border-line-hover);
+  color: #ffffff;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+.btn-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.65rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-line);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-copy:hover {
+  color: var(--text-primary);
+  border-color: var(--border-line-hover);
+}
+
+/* ====================================================
+   HEADER & NAVIGATION
+   ==================================================== */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: var(--nav-height);
+  background: rgba(8, 9, 11, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-line);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.brand-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+.brand-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.45rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  border-radius: 3px;
+}
+
+.status-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent-green);
+}
+
+.status-text {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+}
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.header-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border-line);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.header-icon-link:hover {
+  color: var(--text-primary);
+  border-color: var(--border-line-hover);
+  background: var(--bg-surface);
+}
+
+.bugcrowd-icon {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Mobile Nav Toggle */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-bar {
+  width: 100%;
+  height: 1.5px;
+  background: var(--text-primary);
+  transition: all var(--transition-fast);
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: var(--nav-height);
+  left: 0;
+  width: 100%;
+  background: var(--bg-main);
+  border-bottom: 1px solid var(--border-line);
+  padding: 1.75rem 0;
+  z-index: 49;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.mobile-nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.mobile-nav-link:hover {
+  color: var(--text-primary);
+}
+
+.mobile-menu-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-line);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+.mobile-menu-socials a {
+  color: var(--text-secondary);
+}
+
+/* ====================================================
+   HERO SECTION
+   ==================================================== */
+.hero-section {
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.hero-meta {
+  margin-bottom: 1.25rem;
+}
+
+.hero-title {
+  font-size: clamp(2.75rem, 5.5vw, 4.25rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.hero-role {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--accent-green);
+  margin-bottom: 0.75rem;
+  font-family: var(--font-mono);
+}
+
+.hero-tagline {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  font-style: italic;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.hero-summary {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  max-width: 580px;
+  margin-bottom: 2.25rem;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Hero Sidebar Box */
+.hero-sidebar {
+  width: 100%;
+}
+
+.sidebar-box {
+  padding: 1.75rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-header {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.sidebar-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.metric-val {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+}
+
+.metric-desc {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+
+.sidebar-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-line);
+}
+
+.pill-tag {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-line-subtle);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+/* ====================================================
+   EDITORIAL TWO-COLUMN GRID (ABOUT / SKILLS / EDUCATION)
+   ==================================================== */
+.editorial-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.grid-left {
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+}
+
+.meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-line);
+}
+
+.meta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.meta-key {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.meta-val {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.45;
+}
+
+.meta-sub {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  font-weight: 400;
+}
+
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.prose p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.prose strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.prose .lead-text {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  line-height: 1.65;
+}
+
+.quote-callout {
+  margin-top: 2.25rem;
+  padding: 1.5rem;
+  background: var(--bg-subtle);
+  border-left: 2px solid var(--accent-green);
+  border-radius: 0 4px 4px 0;
+}
+
+.quote-text {
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+}
+
+.quote-desc {
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+  line-height: 1.6;
+}
+
+/* ====================================================
+   MAIN SECURITY FOCUS (10 FOCUS CARDS)
+   ==================================================== */
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.focus-card {
+  padding: 1.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.focus-card:hover {
+  background: var(--bg-surface);
+  border-color: var(--border-line-hover);
+}
+
+.focus-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.focus-index {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-green);
+}
+
+.focus-cat-tag {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  letter-spacing: 0.05em;
+}
+
+.focus-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.focus-card-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+/* ====================================================
+   SECURITY RESEARCH & SELECTED FINDINGS TABLE
+   ==================================================== */
+.research-table {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border-line);
+}
+
+.research-row {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  gap: 2rem;
+  padding: 1.75rem 1.25rem;
+  border-bottom: 1px solid var(--border-line);
+  align-items: center;
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+  outline: none;
+  background: transparent;
+}
+
+.research-row:hover,
+.research-row:focus-visible {
+  background: var(--bg-subtle);
+}
+
+.row-index {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  transition: color var(--transition-fast);
+}
+
+.research-row:hover .row-index {
+  color: var(--accent-green);
+}
+
+.row-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.row-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.row-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.6rem;
+  max-width: 780px;
+}
+
+.row-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}
+
+.meta-dot {
+  color: var(--border-line-hover);
+}
+
+.status-pill {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+}
+
+.status-pill-accepted {
+  background: var(--accent-green-dim);
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green-border);
+}
+
+.status-pill-disclosure {
+  background: var(--accent-blue-dim);
+  color: var(--accent-blue);
+  border: 1px solid var(--accent-blue-border);
+}
+
+.status-pill-research {
+  background: var(--accent-purple-dim);
+  color: var(--accent-purple);
+  border: 1px solid var(--accent-purple-border);
+}
+
+.row-action {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.action-arrow {
+  font-size: 1rem;
+  transition: transform var(--transition-fast);
+}
+
+.research-row:hover .row-action {
+  color: var(--text-primary);
+}
+
+.research-row:hover .action-arrow {
+  transform: translateX(4px);
+  color: var(--accent-green);
+}
+
+/* Platform Participation Bar */
+.platform-bar {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.platform-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.platform-summary {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  max-width: 640px;
+}
+
+.platform-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.platform-link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--border-line);
+  border-radius: 4px;
+  background: var(--bg-surface);
+  white-space: nowrap;
+}
+
+.platform-link:hover {
+  border-color: var(--border-line-hover);
+  background: var(--bg-surface-hover);
+}
+
+/* ====================================================
+   TECHNICAL SKILLS MATRIX
+   ==================================================== */
+.skills-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skill-category-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.skill-category-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.skill-cat-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  letter-spacing: 0.06em;
+}
+
+.skill-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  border-radius: 3px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.tag:hover {
+  color: var(--text-primary);
+  border-color: var(--border-line-hover);
+  background: var(--bg-surface);
+}
+
+.tag-accent {
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.12);
+  background: var(--bg-surface);
+}
+
+/* ====================================================
+   METHODOLOGY (TYPOGRAPHY-FIRST WORKFLOW)
+   ==================================================== */
+.methodology-flow {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-line);
+}
+
+.flow-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.flow-step {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-green);
+}
+
+.flow-name {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
+.flow-desc {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}
+
+/* ====================================================
+   LEARNING & EDUCATION
+   ==================================================== */
+.education-block {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-line);
+}
+
+.edu-degree {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.edu-school {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.edu-status {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-green);
+  margin-bottom: 0.75rem;
+}
+
+.edu-desc {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  line-height: 1.55;
+}
+
+.subsection-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.learning-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.learning-row {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.learning-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+}
+
+.learning-content strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.learning-content p {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}
+
+/* ====================================================
+   CONTACT CTA (MINIMAL & EDITORIAL)
+   ==================================================== */
+.contact-editorial {
+  max-width: 680px;
+}
+
+.contact-heading {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.contact-sub {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.contact-email-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.email-display-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-email-text {
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.contact-btns {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ====================================================
+   FOOTER
+   ==================================================== */
+.footer {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background: var(--bg-main);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.footer-title {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+.footer-sub {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent-green);
+  margin-top: 0.2rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+.footer-links a:hover {
+  color: var(--text-primary);
+}
+
+.footer-sep {
+  color: var(--border-line);
+}
+
+.footer-right {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+/* ====================================================
+   RESEARCH MODAL (EDITORIAL DETAIL VIEW)
+   ==================================================== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-fast), visibility var(--transition-fast);
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-container {
+  width: 100%;
+  max-width: 640px;
+  max-height: 85vh;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line-hover);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transform: scale(0.97);
+  transition: transform var(--transition-fast);
+  overflow: hidden;
+}
+
+.modal-overlay.open .modal-container {
+  transform: scale(1);
+}
+
+.modal-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-line);
+  position: relative;
+}
+
+.modal-meta-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.modal-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+}
+
+.modal-status-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+
+.modal-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: 1px solid var(--border-line);
+  color: var(--text-tertiary);
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  transition: all var(--transition-fast);
+}
+
+.modal-close:hover {
+  color: var(--text-primary);
+  border-color: var(--border-line-hover);
+  background: var(--bg-surface);
+}
+
+.modal-body {
+  padding: 1.5rem;
+  overflow-y: auto;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.modal-body h4 {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-top: 1.4rem;
+  margin-bottom: 0.35rem;
+  letter-spacing: 0.05em;
+}
+
+.modal-body h4:first-child {
+  margin-top: 0;
+}
+
+.modal-body p {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.modal-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-line);
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+}
+
+.m-grid-item span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+}
+
+.m-grid-item strong {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.modal-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border-line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal-disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  line-height: 1.4;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-line-hover);
+  color: var(--text-primary);
+  padding: 0.65rem 1.15rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: all var(--transition-fast);
+  z-index: 200;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ====================================================
+   RESPONSIVE BREAKPOINTS
+   ==================================================== */
+@media (max-width: 1024px) {
+  .editorial-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .grid-left {
+    position: static;
+  }
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .methodology-flow {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .mobile-menu-btn {
+    display: flex;
+  }
+  .header-socials {
+    display: none;
+  }
+  .research-row {
+    grid-template-columns: 32px 1fr;
+    gap: 1rem;
+    padding: 1.25rem 0.5rem;
+  }
+  .row-action {
+    display: none;
+  }
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+  .methodology-flow {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.35rem;
+  }
+  .hero-tagline {
+    font-size: 1rem;
+  }
+  .hero-summary {
+    font-size: 0.95rem;
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .contact-heading {
+    font-size: 1.85rem;
+  }
+  .contact-email-text {
+    font-size: 0.95rem;
+  }
+  .platform-bar {
+    padding: 1.25rem;
+  }
+  .platform-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .platform-link {
+    text-align: center;
+  }
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+</style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jatin Patidar",
+    "jobTitle": "Cybersecurity Researcher & Penetration Tester",
+    "email": "mailto:jatin.security@gmail.com",
+    "url": "https://jatinpatel-hacker33.github.io/",
+    "sameAs": [
+      "https://github.com/jatinpatel-hacker33",
+      "https://www.linkedin.com/in/jatin-patidar-57b620401/",
+      "https://bugcrowd.com/h/jatinpatelc99253"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Amity University"
+    },
+    "knowsAbout": [
+      "Web Application Security",
+      "API Security",
+      "Vulnerability Research",
+      "Responsible Disclosure",
+      "Penetration Testing",
+      "IDOR / BOLA",
+      "Authentication & Authorisation",
+      "Account Security",
+      "Rate Limiting"
+    ],
+    "description": "Jatin Patidar is a cybersecurity researcher and BCA Cyber Security student focused on web application security, API security, vulnerability research and responsible disclosure."
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand" aria-label="Jatin Patidar - Home">
+        <span class="brand-name">JATIN PATIDAR</span>
+      </a>
+
+      <nav class="nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#focus" class="nav-link">Security Focus</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#methodology" class="nav-link">Methodology</a></li>
+          <li><a href="#learning" class="nav-link">Learning</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-socials">
+        <a href="https://github.com/jatinpatel-hacker33" target="_blank" rel="noopener noreferrer"
+          class="header-icon-link" title="GitHub" aria-label="GitHub Profile">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer"
+          class="header-icon-link" title="LinkedIn" aria-label="LinkedIn Profile">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank" rel="noopener noreferrer"
+          class="header-icon-link" title="Bugcrowd" aria-label="Bugcrowd Profile">
+          <span class="bugcrowd-icon">BC</span>
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn"
+        aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="container mobile-menu-content">
+        <ul class="mobile-nav-list">
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#focus" class="mobile-nav-link">Security Focus</a></li>
+          <li><a href="#research" class="mobile-nav-link">Security Research</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Technical Skills</a></li>
+          <li><a href="#methodology" class="mobile-nav-link">Methodology</a></li>
+          <li><a href="#learning" class="mobile-nav-link">Learning &amp; Practice</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-socials">
+          <a href="https://github.com/jatinpatel-hacker33" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
+          <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
+          <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank" rel="noopener noreferrer">Bugcrowd &#8599;</a>
+          <a href="mailto:jatin.security@gmail.com">jatin.security@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================================================
+         1. HERO SECTION
+    ================================================ -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-layout">
+
+          <!-- Left Main Column -->
+          <div class="hero-main">
+            <div class="hero-meta">
+              <span class="mono-label">SECURITY RESEARCH &bull; PENETRATION TESTING</span>
+            </div>
+
+            <h1 class="hero-title">Jatin Patidar</h1>
+
+            <p class="hero-role">
+              Cybersecurity Researcher &bull; Penetration Tester
+            </p>
+
+            <p class="hero-tagline">
+              &ldquo;Finding security weaknesses before attackers do.&rdquo;
+            </p>
+
+            <p class="hero-summary">
+              Security research focused on discovering and responsibly disclosing vulnerabilities in web applications,
+              APIs, authentication, and authorisation systems through deep manual validation.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#research" class="btn btn-primary">
+                View Security Research
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                  <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                </svg>
+              </a>
+              <a href="https://github.com/jatinpatel-hacker33" target="_blank" rel="noopener noreferrer"
+                class="btn btn-ghost">GitHub &#8599;</a>
+              <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-ghost">LinkedIn &#8599;</a>
+              <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank" rel="noopener noreferrer"
+                class="btn btn-ghost">Bugcrowd &#8599;</a>
+            </div>
+          </div>
+
+          <!-- Right Sidebar -->
+          <div class="hero-sidebar">
+            <div class="sidebar-box">
+              <div class="sidebar-header">
+                <span class="mono-label">RESEARCH POSITIONING</span>
+              </div>
+              <div class="sidebar-metrics">
+                <div class="metric-item">
+                  <span class="metric-val">Web &amp; API</span>
+                  <span class="metric-desc">Primary Research Domain</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">BCA (Year 2)</span>
+                  <span class="metric-desc">Cyber Security &bull; Amity University</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">Responsible Disclosure</span>
+                  <span class="metric-desc">Authorised Security Research</span>
+                </div>
+              </div>
+              <div class="sidebar-pills">
+                <span class="pill-tag">IDOR / BOLA</span>
+                <span class="pill-tag">AuthN &amp; AuthZ</span>
+                <span class="pill-tag">Account Security</span>
+                <span class="pill-tag">Rate Limiting</span>
+                <span class="pill-tag">API Security</span>
+                <span class="pill-tag">Business Logic</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         2. ABOUT ME
+    ================================================ -->
+    <section class="section border-top" id="about">
+      <div class="container">
+        <div class="editorial-grid">
+
+          <!-- Left -->
+          <div class="grid-left">
+            <span class="section-tag">01 / ABOUT</span>
+            <h2 class="section-heading">About Me</h2>
+            <div class="meta-list">
+              <div class="meta-row">
+                <span class="meta-key">Based In</span>
+                <span class="meta-val">India</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Education</span>
+                <span class="meta-val">
+                  BCA &mdash; Cyber Security<br>
+                  <span class="meta-sub">Amity University &bull; Second Year (2025 &mdash; Present)</span>
+                </span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Core Focus</span>
+                <span class="meta-val">
+                  Web &amp; API Security<br>
+                  <span class="meta-sub">Vulnerability Research &bull; AuthN/AuthZ</span>
+                </span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Engagement</span>
+                <span class="meta-val">Bug Bounty &amp; Responsible Disclosure</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="grid-right">
+            <div class="prose">
+              <p class="lead-text">
+                I&rsquo;m Jatin Patidar, a cybersecurity researcher and BCA Cyber Security student focused on
+                discovering and responsibly disclosing vulnerabilities in web applications and APIs.
+              </p>
+              <p>
+                My research centres on access control, authentication, API security, IDOR/BOLA, rate limiting,
+                and business-logic flaws. I enjoy understanding how complex web applications function under the
+                hood, manually verifying security issues, and producing clear, deterministic technical
+                documentation.
+              </p>
+              <p>
+                I continuously improve my practical skills through bug bounty programmes, PortSwigger Web Security
+                Academy, Hack With Me, and hands-on laboratory research.
+              </p>
+            </div>
+
+            <div class="quote-callout">
+              <p class="quote-text">
+                &ldquo;I conduct security research within authorised scopes and responsible-disclosure
+                programmes.&rdquo;
+              </p>
+              <p class="quote-desc">
+                Sensitive information, private credentials, customer data, and unreleased exploit details are
+                strictly excluded from this portfolio.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         3. SECURITY FOCUS
+    ================================================ -->
+    <section class="section border-top" id="focus">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-tag">02 / FOCUS</span>
+            <h2 class="section-heading">Web &amp; API Security Focus</h2>
+          </div>
+          <div class="section-header-note">
+            <span class="mono-badge">CORE EXPERTISE DOMAINS</span>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          Primary vulnerability categories and security mechanisms researched through manual testing, API
+          protocol analysis, and authorised vulnerability disclosure.
+        </p>
+
+        <div class="focus-grid">
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">01</span>
+              <span class="focus-cat-tag">ACCESS CONTROL</span>
+            </div>
+            <h3 class="focus-card-title">IDOR / BOLA</h3>
+            <p class="focus-card-desc">
+              Insecure Direct Object References and Broken Object Level Authorisation across REST/GraphQL
+              endpoints, with a focus on identifying missing server-side access controls.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">02</span>
+              <span class="focus-cat-tag">IDENTITY &amp; ROLES</span>
+            </div>
+            <h3 class="focus-card-title">Authentication &amp; Authorisation</h3>
+            <p class="focus-card-desc">
+              Research into session lifecycle, privilege boundaries, function-level access control,
+              authentication flows, and password-reset security.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">03</span>
+              <span class="focus-cat-tag">ACCOUNT SECURITY</span>
+            </div>
+            <h3 class="focus-card-title">Account Security</h3>
+            <p class="focus-card-desc">
+              Research into account-security weaknesses involving response handling, token management,
+              parameter manipulation, identity verification, and related business logic.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">04</span>
+              <span class="focus-cat-tag">FEDERATION &amp; TOKENS</span>
+            </div>
+            <h3 class="focus-card-title">OAuth / JWT Security</h3>
+            <p class="focus-card-desc">
+              Research into redirect URI validation, state handling, token validation, JWT signatures,
+              claims, and authentication flows.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">05</span>
+              <span class="focus-cat-tag">RATE CONTROLS</span>
+            </div>
+            <h3 class="focus-card-title">Rate Limiting</h3>
+            <p class="focus-card-desc">
+              Research into request throttling and abuse resistance on sensitive authentication, OTP,
+              password-reset, and account-recovery endpoints.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">06</span>
+              <span class="focus-cat-tag">PERMISSIONS</span>
+            </div>
+            <h3 class="focus-card-title">Access Control</h3>
+            <p class="focus-card-desc">
+              Research into horizontal and vertical privilege boundaries, multi-tenant isolation, broken
+              authorisation controls, and protected administrative functionality.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">07</span>
+              <span class="focus-cat-tag">EXPOSURE</span>
+            </div>
+            <h3 class="focus-card-title">Information Disclosure</h3>
+            <p class="focus-card-desc">
+              Research into unintended exposure of metadata, verbose errors, internal endpoints,
+              configuration information, and other sensitive application details.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">08</span>
+              <span class="focus-cat-tag">API TOP 10</span>
+            </div>
+            <h3 class="focus-card-title">API Security</h3>
+            <p class="focus-card-desc">
+              Research into mass assignment, excessive data exposure, undocumented endpoints, GraphQL
+              security, parameter manipulation, and API authorisation.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">09</span>
+              <span class="focus-cat-tag">OWASP TOP 10</span>
+            </div>
+            <h3 class="focus-card-title">Web Application Security</h3>
+            <p class="focus-card-desc">
+              Research across common web application security issues including XSS, SQL injection, CSRF,
+              SSRF, and browser security policy weaknesses.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">10</span>
+              <span class="focus-cat-tag">INFRASTRUCTURE</span>
+            </div>
+            <h3 class="focus-card-title">Security Misconfiguration</h3>
+            <p class="focus-card-desc">
+              Research into permissive CORS policies, exposed administrative functionality, missing security
+              controls, default configurations, and debug features.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         4. SECURITY RESEARCH & SELECTED FINDINGS
+    ================================================ -->
+    <section class="section border-top" id="research">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-tag">03 / FINDINGS</span>
+            <h2 class="section-heading">Security Research &amp; Selected Findings</h2>
+          </div>
+          <div class="section-header-note">
+            <span class="mono-badge">SANITIZED VULNERABILITY RESEARCH</span>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          Discovered and responsibly disclosed security issues affecting authentication, access control, rate
+          limiting, and information exposure across web applications and APIs. All private report details,
+          private URLs, credentials, customer information, and unreleased exploit details are strictly omitted.
+        </p>
+
+        <div class="research-table" role="list">
+
+          <!-- Case 01 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="swisscom">
+            <div class="row-index">01</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">Enterprise Security Research</h3>
+                <span class="status-pill status-pill-disclosure">Reported / Responsible Disclosure</span>
+              </div>
+              <p class="row-desc">
+                Security research involving information disclosure and authentication rate-limiting weaknesses
+                identified through authorised vulnerability testing.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">Information Disclosure &bull; Rate Limiting &bull; Vulnerability Disclosure</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+          <!-- Case 02 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="ratelimit">
+            <div class="row-index">02</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">Authentication Rate-Limiting Research</h3>
+                <span class="status-pill status-pill-disclosure">Responsible Disclosure</span>
+              </div>
+              <p class="row-desc">
+                Investigation into authentication endpoint resilience against automated request bursts,
+                credential-stuffing scenarios, and request-throttling controls, documented with defensive
+                remediation guidance.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">Authentication &bull; Session Security &bull; Coordinated Disclosure</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+          <!-- Case 03 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="idor">
+            <div class="row-index">03</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">Access Control Research (IDOR / BOLA)</h3>
+                <span class="status-pill status-pill-disclosure">Responsible Disclosure</span>
+              </div>
+              <p class="row-desc">
+                Investigation into object-level authorisation handling across API routes, with testing focused
+                on identifying missing server-side authorisation checks and validating access boundaries using
+                isolated test accounts.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">Authorisation &bull; BOLA &bull; Multi-Account Isolation</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+          <!-- Case 04 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="ato">
+            <div class="row-index">04</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">Account Security &amp; Takeover Research</h3>
+                <span class="status-pill status-pill-research">Research &amp; Testing</span>
+              </div>
+              <p class="row-desc">
+                Practical analysis of password-reset workflows, token generation and handling, response
+                behaviour, and business-logic conditions that may affect account security in controlled
+                test environments.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">Account Security &bull; Logic Flaws &bull; Hands-on Security Research</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Platform Bar -->
+        <div class="platform-bar">
+          <div class="platform-text">
+            <span class="platform-label">BUG BOUNTY &amp; VDP PARTICIPATION</span>
+            <p class="platform-summary">
+              I participate in responsible security research and vulnerability disclosure programmes, focusing
+              on identifying and clearly documenting security weaknesses.
+            </p>
+          </div>
+          <div class="platform-links">
+            <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank" rel="noopener noreferrer"
+              class="platform-link">Bugcrowd Profile &#8599;</a>
+            <a href="https://github.com/jatinpatel-hacker33" target="_blank" rel="noopener noreferrer"
+              class="platform-link">GitHub Profile &#8599;</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         5. TECHNICAL SKILLS
+    ================================================ -->
+    <section class="section border-top" id="skills">
+      <div class="container">
+        <div class="editorial-grid">
+
+          <div class="grid-left">
+            <span class="section-tag">04 / SKILLS</span>
+            <h2 class="section-heading">Technical Skills</h2>
+            <p class="section-subtext">
+              Organized capabilities across web application security, API testing, bug hunting reconnaissance,
+              scripting, network protocols, and defensive security fundamentals.
+            </p>
+          </div>
+
+          <div class="grid-right">
+            <div class="skills-rows">
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">WEB APPLICATION SECURITY</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag">OWASP Top 10</span>
+                  <span class="tag">XSS</span>
+                  <span class="tag">SQL Injection</span>
+                  <span class="tag">CSRF</span>
+                  <span class="tag">SSRF</span>
+                  <span class="tag">IDOR / BOLA</span>
+                  <span class="tag">Authentication &amp; Authorisation</span>
+                  <span class="tag">OAuth</span>
+                  <span class="tag">JWT</span>
+                  <span class="tag">Access Control</span>
+                  <span class="tag">Business Logic</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">API SECURITY</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag">REST APIs</span>
+                  <span class="tag">GraphQL</span>
+                  <span class="tag">API Authentication</span>
+                  <span class="tag">API Authorisation</span>
+                  <span class="tag">BOLA</span>
+                  <span class="tag">Rate Limiting</span>
+                  <span class="tag">API Enumeration</span>
+                  <span class="tag">JSON / HTTP</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">RECONNAISSANCE &amp; BUG HUNTING TOOLS</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag tag-accent">Burp Suite</span>
+                  <span class="tag tag-accent">Nuclei</span>
+                  <span class="tag tag-accent">FFUF</span>
+                  <span class="tag">httpx</span>
+                  <span class="tag">Subfinder</span>
+                  <span class="tag">Amass</span>
+                  <span class="tag">Assetfinder</span>
+                  <span class="tag">Katana</span>
+                  <span class="tag">Wayback / GAU</span>
+                  <span class="tag">Nmap</span>
+                  <span class="tag">DNSX</span>
+                  <span class="tag">Dalfox</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">PROGRAMMING &amp; AUTOMATION</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag tag-accent">Python</span>
+                  <span class="tag">Bash</span>
+                  <span class="tag">PowerShell</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Go</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">NETWORK &amp; SYSTEM SECURITY</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag">TCP/IP</span>
+                  <span class="tag">DNS</span>
+                  <span class="tag">HTTP / HTTPS</span>
+                  <span class="tag">TLS</span>
+                  <span class="tag">Linux</span>
+                  <span class="tag">Windows</span>
+                  <span class="tag">Wireshark</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">DEFENSIVE SECURITY FUNDAMENTALS</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag">SIEM Concepts</span>
+                  <span class="tag">Log Analysis</span>
+                  <span class="tag">Vulnerability Management</span>
+                  <span class="tag">Threat Intelligence</span>
+                  <span class="tag">MITRE ATT&amp;CK Concepts</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         6. METHODOLOGY
+    ================================================ -->
+    <section class="section border-top" id="methodology">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-tag">05 / METHODOLOGY</span>
+            <h2 class="section-heading">How I Approach Security Research</h2>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          A disciplined, non-destructive 6-stage research workflow combining passive intelligence, manual
+          testing, deterministic validation, and responsible disclosure.
+        </p>
+
+        <div class="methodology-flow">
+
+          <div class="flow-item">
+            <div class="flow-step">01</div>
+            <div class="flow-name">RECON</div>
+            <p class="flow-desc">Passive asset discovery, DNS intelligence, historical URL discovery, and scope-boundary mapping.</p>
+          </div>
+
+          <div class="flow-item">
+            <div class="flow-step">02</div>
+            <div class="flow-name">UNDERSTAND</div>
+            <p class="flow-desc">Application architecture, request flows, parameter handling, authentication states, and role hierarchies.</p>
+          </div>
+
+          <div class="flow-item">
+            <div class="flow-step">03</div>
+            <div class="flow-name">TEST</div>
+            <p class="flow-desc">Deep manual testing with Burp Suite focused on application logic, state transitions, API behaviour, and access controls.</p>
+          </div>
+
+          <div class="flow-item">
+            <div class="flow-step">04</div>
+            <div class="flow-name">VALIDATE</div>
+            <p class="flow-desc">Reproduction across isolated test accounts and controlled scenarios to reduce false positives and establish deterministic impact.</p>
+          </div>
+
+          <div class="flow-item">
+            <div class="flow-step">05</div>
+            <div class="flow-name">DOCUMENT</div>
+            <p class="flow-desc">Clear, non-destructive proof-of-concept documentation, impact assessment, evidence, and remediation guidance.</p>
+          </div>
+
+          <div class="flow-item">
+            <div class="flow-step">06</div>
+            <div class="flow-name">DISCLOSE</div>
+            <p class="flow-desc">Coordinated responsible disclosure through the designated security programme or reporting channel.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         7. LEARNING & EDUCATION
+    ================================================ -->
+    <section class="section border-top" id="learning">
+      <div class="container">
+        <div class="editorial-grid">
+
+          <div class="grid-left">
+            <span class="section-tag">06 / TIMELINE</span>
+            <h2 class="section-heading">Education</h2>
+
+            <div class="education-block">
+              <span class="mono-label">2025 &mdash; PRESENT</span>
+              <h3 class="edu-degree">BCA &mdash; Cyber Security</h3>
+              <p class="edu-school">Amity University</p>
+              <p class="edu-status">Currently in Second Year</p>
+              <p class="edu-desc">
+                Core coursework in operating systems, networking fundamentals, computer architecture,
+                cryptographic principles, and application security.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-right">
+            <span class="section-tag">PRACTICE</span>
+            <h3 class="subsection-heading">Learning &amp; Continuous Practice</h3>
+            <p class="section-subtext" style="margin-bottom: 1.5rem;">
+              Ongoing hands-on practice, labs, and deep-dive technical study across industry platforms:
+            </p>
+
+            <div class="learning-list">
+
+              <div class="learning-row">
+                <span class="learning-num">01</span>
+                <div class="learning-content">
+                  <strong>PortSwigger Web Security Academy</strong>
+                  <p>Practical laboratory work covering SSRF, IDOR/BOLA, business logic, authentication, and web application security.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">02</span>
+                <div class="learning-content">
+                  <strong>Hack With Me</strong>
+                  <p>Hands-on web security challenge scenarios and application vulnerability labs.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">03</span>
+                <div class="learning-content">
+                  <strong>OWASP Top 10 &amp; API Top 10</strong>
+                  <p>Study of vulnerability mechanics, root causes, detection patterns, and remediation strategies.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">04</span>
+                <div class="learning-content">
+                  <strong>Web Application Security</strong>
+                  <p>In-depth study of application state models, browser boundaries, authentication flows, and business logic.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">05</span>
+                <div class="learning-content">
+                  <strong>API Security</strong>
+                  <p>Endpoint permission modelling, token validation, parameter manipulation, API enumeration, and rate-limit controls.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">06</span>
+                <div class="learning-content">
+                  <strong>Authentication &amp; Authorisation</strong>
+                  <p>Study of session lifecycles, authentication mechanisms, JWT validation, and access-control models.</p>
+                </div>
+              </div>
+
+              <div class="learning-row">
+                <span class="learning-num">07</span>
+                <div class="learning-content">
+                  <strong>Penetration Testing</strong>
+                  <p>Structured methodology, authorised non-destructive validation, evidence collection, and technical documentation.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         8. CONTACT
+    ================================================ -->
+    <section class="section border-top" id="contact">
+      <div class="container">
+        <div class="contact-editorial">
+          <span class="section-tag">07 / GET IN TOUCH</span>
+          <h2 class="contact-heading">&ldquo;Let&rsquo;s talk security.&rdquo;</h2>
+          <p class="contact-sub">
+            Interested in security research, penetration testing, or cybersecurity opportunities? Feel free to
+            reach out directly.
+          </p>
+
+          <div class="contact-email-box">
+            <div class="email-display-row">
+              <span class="contact-email-text" id="mainEmailText">jatin.security@gmail.com</span>
+              <button class="btn-copy" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                </svg>
+                <span id="copyBtnText">Copy email</span>
+              </button>
+            </div>
+
+            <div class="contact-btns">
+              <a href="mailto:jatin.security@gmail.com" class="btn btn-primary">Email Me</a>
+              <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank"
+                rel="noopener noreferrer" class="btn btn-ghost">LinkedIn &#8599;</a>
+              <a href="https://github.com/jatinpatel-hacker33" target="_blank"
+                rel="noopener noreferrer" class="btn btn-ghost">GitHub &#8599;</a>
+              <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank"
+                rel="noopener noreferrer" class="btn btn-ghost">Bugcrowd &#8599;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer border-top">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-name">JATIN PATIDAR</span>
+        <span class="footer-title">Cybersecurity Researcher &bull; Penetration Tester</span>
+        <span class="footer-sub">Responsible Disclosure &bull; Web Security &bull; API Security</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/jatinpatel-hacker33" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="footer-sep">&bull;</span>
+        <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span class="footer-sep">&bull;</span>
+        <a href="https://bugcrowd.com/h/jatinpatelc99253" target="_blank" rel="noopener noreferrer">Bugcrowd</a>
+        <span class="footer-sep">&bull;</span>
+        <a href="mailto:jatin.security@gmail.com">Email</a>
+      </div>
+
+      <div class="footer-right">
+        <span>&copy; 2026 Jatin Patidar. Built for security research and responsible disclosure.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESEARCH MODAL -->
+  <div class="modal-overlay" id="researchModal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="modalTitle">
+    <div class="modal-container" id="modalContainer">
+      <div class="modal-header">
+        <div class="modal-meta-top">
+          <span class="modal-tag" id="modalTag">CASE REF #01</span>
+          <span class="modal-status-badge" id="modalStatus">Accepted / Validated</span>
+        </div>
+        <h3 class="modal-title" id="modalTitle">Research Case Study</h3>
+        <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via script.js -->
+      </div>
+      <div class="modal-footer">
+        <span class="modal-disclaimer">
+          In compliance with responsible disclosure, confidential report parameters, URLs, and private
+          details are omitted.
+        </span>
+        <button class="btn btn-ghost btn-sm" id="modalCloseBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" aria-live="polite" aria-hidden="true">
+    <span id="toastMsg">Email copied to clipboard.</span>
+  </div>
+
+  <script>
+/**
+ * JATIN PATIDAR -- PROFESSIONAL CYBERSECURITY PORTFOLIO
+ * All strings use plain ASCII or explicit \uXXXX escapes.
+ * All innerHTML strings use HTML entity references.
+ */
+
+document.addEventListener('DOMContentLoaded', function () {
+  initMobileNav();
+  initResearchModal();
+  initEmailCopy();
+});
+
+/* ====================================================
+   1. MOBILE NAVIGATION
+   ==================================================== */
+function initMobileNav() {
+  var btn   = document.getElementById('mobileMenuBtn');
+  var menu  = document.getElementById('mobileMenu');
+  var links = document.querySelectorAll('.mobile-nav-link');
+
+  if (!btn || !menu) return;
+
+  function toggle(open) {
+    var isOpen = (open !== undefined) ? open : !menu.classList.contains('open');
+    menu.classList.toggle('open', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+    menu.setAttribute('aria-hidden', String(!isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+
+  btn.addEventListener('click', function () { toggle(); });
+  links.forEach(function (l) {
+    l.addEventListener('click', function () { toggle(false); });
+  });
+}
+
+/* ====================================================
+   2. RESEARCH DETAIL MODAL
+   All strings: plain ASCII or \uXXXX escapes.
+   innerHTML strings use HTML entities.
+   ==================================================== */
+function initResearchModal() {
+  var modal       = document.getElementById('researchModal');
+  var modalTag    = document.getElementById('modalTag');
+  var modalStatus = document.getElementById('modalStatus');
+  var modalTitle  = document.getElementById('modalTitle');
+  var modalBody   = document.getElementById('modalBody');
+  var closeBtn    = document.getElementById('modalClose');
+  var closeAction = document.getElementById('modalCloseBtn');
+  var rows        = document.querySelectorAll('.research-row');
+
+  if (!modal || !modalTitle || !modalBody) return;
+
+  var cases = {
+    'swisscom': {
+      tag:        'CASE REF #01',
+      status:     'Reported / Responsible Disclosure',
+      statusType: 'disclosure',
+      title:      'Enterprise Security Research',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Enterprise Application Security</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>Information Disclosure &amp; Rate Limiting</strong></div>',
+        '  <div class="m-grid-item"><span>STATUS</span><strong style="color:var(--accent-blue)">Reported / Responsible Disclosure</strong></div>',
+        '  <div class="m-grid-item"><span>ENGAGEMENT</span><strong>Vulnerability Disclosure Programme</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>Security research involving information disclosure and authentication rate-limiting weaknesses identified through authorised vulnerability testing.</p>',
+        '<h4>Technical Context</h4>',
+        '<p>During authorised evaluation of application endpoints, response inspection identified improper error handling exposing internal backend metadata. Further testing of the authentication interface identified an absence of request throttling under concurrent conditions.</p>',
+        '<h4>Potential Impact</h4>',
+        '<p>The combination of internal metadata exposure and missing rate controls could facilitate automated credential testing without triggering defensive rate locks.</p>',
+        '<h4>Remediation Guidance</h4>',
+        '<p>Recommended enforcing strict gateway-level rate limiting and stripping internal debug metadata from application error responses. Reported through the programme responsible disclosure channel.</p>'
+      ].join('\n')
+    },
+
+    'ratelimit': {
+      tag:        'CASE REF #02',
+      status:     'Responsible Disclosure',
+      statusType: 'disclosure',
+      title:      'Authentication Rate-Limiting Research',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Authentication Security</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>Missing Rate Controls / Throttling</strong></div>',
+        '  <div class="m-grid-item"><span>STATUS</span><strong style="color:var(--accent-blue)">Responsible Disclosure</strong></div>',
+        '  <div class="m-grid-item"><span>METHODOLOGY</span><strong>Controlled Concurrency Testing</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>Investigation into authentication endpoint resilience against automated request bursts, credential-stuffing scenarios, and request-throttling controls, documented with defensive remediation guidance.</p>',
+        '<h4>Technical Context</h4>',
+        '<p>Evaluated password verification and one-time-passcode interfaces by sending controlled batches of requests to test server-side response codes, latency variations, and lock-out mechanisms. Identified endpoints lacking IP-level and account-level throttling.</p>',
+        '<h4>Potential Impact</h4>',
+        '<p>Absence of rate controls may allow automated high-speed credential guessing or OTP brute-force attempts against target accounts.</p>',
+        '<h4>Remediation Guidance</h4>',
+        '<p>Recommended implementing token-bucket rate limiting at the API gateway layer, progressive CAPTCHA challenges, and account-level failure thresholds.</p>'
+      ].join('\n')
+    },
+
+    'idor': {
+      tag:        'CASE REF #03',
+      status:     'Responsible Disclosure',
+      statusType: 'disclosure',
+      title:      'Access Control Research (IDOR / BOLA)',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Authorisation &amp; Access Control</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>IDOR / BOLA (Broken Object Level Authorisation)</strong></div>',
+        '  <div class="m-grid-item"><span>STATUS</span><strong style="color:var(--accent-blue)">Responsible Disclosure</strong></div>',
+        '  <div class="m-grid-item"><span>VALIDATION</span><strong>Dual Isolated Test Accounts</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>Investigation into object-level authorisation handling across API routes, with testing focused on identifying missing server-side authorisation checks and validating access boundaries using isolated test accounts.</p>',
+        '<h4>Technical Context</h4>',
+        '<p>Using two isolated test accounts (Account A and Account B), object identifiers created by Account A were substituted into authorised API requests from Account B. Testing evaluated whether the API enforced server-side ownership verification before returning data.</p>',
+        '<h4>Potential Impact</h4>',
+        '<p>Missing object-level authorisation checks may allow unauthorised horizontal data access across account boundaries, compromising record confidentiality.</p>',
+        '<h4>Remediation Guidance</h4>',
+        '<p>Enforce server-side authorisation checks verifying that the authenticated session explicitly owns the requested resource identifier before returning any data.</p>'
+      ].join('\n')
+    },
+
+    'ato': {
+      tag:        'CASE REF #04',
+      status:     'Research &amp; Testing',
+      statusType: 'research',
+      title:      'Account Security &amp; Takeover Research',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Account Security &amp; Workflow Logic</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>Account Security &amp; Logic Flaws</strong></div>',
+        '  <div class="m-grid-item"><span>STATUS</span><strong style="color:var(--accent-purple)">Research &amp; Testing</strong></div>',
+        '  <div class="m-grid-item"><span>ENVIRONMENT</span><strong>Hands-on Security Research</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>Practical analysis of password-reset workflows, token generation and handling, response behaviour, and business-logic conditions that may affect account security in controlled test environments.</p>',
+        '<h4>Technical Context</h4>',
+        '<p>Examination of multi-step authentication processes focusing on client-side state handling, token predictability, response manipulation, and verification bypass scenarios in controlled research conditions.</p>',
+        '<h4>Potential Impact</h4>',
+        '<p>Business-logic weaknesses in account-recovery flows may enable unauthorised access to accounts in scenarios where token generation or state validation is insufficiently hardened.</p>',
+        '<h4>Remediation Guidance</h4>',
+        '<p>Enforce cryptographically secure random token generation (CSPRNG), invalidate all existing sessions on password reset, and validate all authentication state exclusively server-side.</p>'
+      ].join('\n')
+    }
+  };
+
+  function openModal(key) {
+    var data = cases[key];
+    if (!data) return;
+
+    modalTag.textContent    = data.tag;
+    modalStatus.textContent = data.status;
+    modalStatus.className   = 'modal-status-badge status-pill-' + data.statusType;
+    modalTitle.textContent  = data.title;
+    modalBody.innerHTML     = data.html;
+
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  rows.forEach(function (row) {
+    row.addEventListener('click', function () {
+      openModal(row.getAttribute('data-case'));
+    });
+    row.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openModal(row.getAttribute('data-case'));
+      }
+    });
+  });
+
+  if (closeBtn)    closeBtn.addEventListener('click',    closeModal);
+  if (closeAction) closeAction.addEventListener('click', closeModal);
+
+  modal.addEventListener('click', function (e) {
+    if (e.target === modal) closeModal();
+  });
+
+  window.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+}
+
+/* ====================================================
+   3. EMAIL COPY + TOAST
+   ==================================================== */
+function initEmailCopy() {
+  var copyBtn     = document.getElementById('copyEmailBtn');
+  var copyBtnText = document.getElementById('copyBtnText');
+  var toast       = document.getElementById('toast');
+  var toastMsg    = document.getElementById('toastMsg');
+  var email       = 'jatin.security@gmail.com';
+  var toastTimer  = null;
+
+  function showToast(msg) {
+    if (!toast) return;
+    if (toastMsg) toastMsg.textContent = msg;
+    toast.classList.add('show');
+    toast.setAttribute('aria-hidden', 'false');
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toast.classList.remove('show');
+      toast.setAttribute('aria-hidden', 'true');
+    }, 2800);
+  }
+
+  function doCopy() {
+    var done = function () {
+      if (copyBtnText) copyBtnText.textContent = 'Copied!';
+      showToast('Email address copied to clipboard');
+      setTimeout(function () {
+        if (copyBtnText) copyBtnText.textContent = 'Copy email';
+      }, 2200);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email).then(done).catch(function () {
+        showToast('Email: ' + email);
+      });
+    } else {
+      var input = document.createElement('input');
+      input.value = email;
+      input.style.position = 'fixed';
+      input.style.opacity  = '0';
+      document.body.appendChild(input);
+      input.select();
+      try { document.execCommand('copy'); done(); } catch (err) { showToast('Email: ' + email); }
+      document.body.removeChild(input);
+    }
+  }
+
+  if (copyBtn) copyBtn.addEventListener('click', doCopy);
+}
+
+</script>
+</body>
+</html>
