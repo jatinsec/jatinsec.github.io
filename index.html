@@ -9,7 +9,7 @@
 
   <meta name="title" content="Jatin Patidar | Cybersecurity Researcher &amp; Penetration Tester">
   <meta name="description"
-    content="Jatin Patidar is a cybersecurity researcher i focused on web application security, API security, vulnerability research, and responsible disclosure.">
+    content="Jatin Patidar is a cybersecurity researcher focused on web application and API security, vulnerability research and responsible disclosure. Swisscom Hall of Fame. CEH, eCPPT, eWPTX and eJPT certified.">
   <meta name="keywords"
     content="Jatin Patidar, Cybersecurity Researcher, Penetration Tester, Bug Bounty, Web Application Security, API Security, Vulnerability Research, Responsible Disclosure, IDOR, BOLA, AuthN, AuthZ, Burp Suite">
   <meta name="author" content="Jatin Patidar">
@@ -1475,6 +1475,49 @@ ul {
   }
 }
 
+
+/* ====================================================
+   RECOGNITION / PROJECT CARD EXTRAS
+   ==================================================== */
+.nav-list { gap: 1.1rem; }
+
+.card-links {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 0.6rem;
+}
+
+.card-link {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent-blue);
+  border-bottom: 1px solid var(--accent-blue-border);
+  padding-bottom: 1px;
+}
+
+.card-link:hover {
+  color: var(--text-primary);
+  border-color: var(--border-line-hover);
+}
+
+.bar-spaced {
+  margin-top: 1.25rem;
+}
+
+.note-text {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 1100px) {
+  .nav { display: none; }
+  .mobile-menu-btn { display: flex; }
+  .header-socials { display: none; }
+}
+
 /* Reduced Motion Preference */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -1495,8 +1538,8 @@ ul {
     "email": "mailto:jatin.security@gmail.com",
     "url": "https://jatinsec.github.io/",
     "sameAs": [
-      "https://github.com/jatinsec/jatinsec",
-      "https://www.linkedin.com/in/jatin-patidar-57b620401/"
+      "https://github.com/jatinsec",
+      "https://www.linkedin.com/in/jatinsec/"
     ],
     "knowsAbout": [
       "Web Application Security",
@@ -1528,6 +1571,8 @@ ul {
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#focus" class="nav-link">Security Focus</a></li>
           <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#recognition" class="nav-link">Recognition</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#methodology" class="nav-link">Methodology</a></li>
           <li><a href="#learning" class="nav-link">Learning</a></li>
@@ -1536,13 +1581,13 @@ ul {
       </nav>
 
       <div class="header-socials">
-        <a href="https://github.com/jatinsec/jatinsec" target="_blank" rel="noopener noreferrer"
+        <a href="https://github.com/jatinsec" target="_blank" rel="noopener noreferrer"
           class="header-icon-link" title="GitHub" aria-label="GitHub Profile">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
           </svg>
         </a>
-        <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.linkedin.com/in/jatinsec/" target="_blank" rel="noopener noreferrer"
           class="header-icon-link" title="LinkedIn" aria-label="LinkedIn Profile">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
@@ -1563,15 +1608,17 @@ ul {
         <ul class="mobile-nav-list">
           <li><a href="#about" class="mobile-nav-link">About</a></li>
           <li><a href="#focus" class="mobile-nav-link">Security Focus</a></li>
-          <li><a href="#research" class="mobile-nav-link">Security Research</a></li>
-          <li><a href="#skills" class="mobile-nav-link">Technical Skills</a></li>
+          <li><a href="#research" class="mobile-nav-link">Research</a></li>
+          <li><a href="#recognition" class="mobile-nav-link">Recognition</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
           <li><a href="#methodology" class="mobile-nav-link">Methodology</a></li>
-          <li><a href="#learning" class="mobile-nav-link">Learning &amp; Practice</a></li>
+          <li><a href="#learning" class="mobile-nav-link">Learning</a></li>
           <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
         </ul>
         <div class="mobile-menu-socials">
-          <a href="https://github.com/jatinsec/jatinsec" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
+          <a href="https://github.com/jatinsec" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
+          <a href="https://www.linkedin.com/in/jatinsec/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
           <a href="mailto:jatin.security@gmail.com">jatin.security@gmail.com</a>
         </div>
       </div>
@@ -1615,9 +1662,9 @@ ul {
                   <path d="M7 17L17 7M17 7H7M17 7V17"/>
                 </svg>
               </a>
-              <a href="https://github.com/jatinsec/jatinsec" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/jatinsec" target="_blank" rel="noopener noreferrer"
                 class="btn btn-ghost">GitHub &#8599;</a>
-              <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/jatinsec/" target="_blank" rel="noopener noreferrer"
                 class="btn btn-ghost">LinkedIn &#8599;</a>
             </div>
           </div>
@@ -1640,6 +1687,10 @@ ul {
                 <div class="metric-item">
                   <span class="metric-val">Responsible Disclosure</span>
                   <span class="metric-desc">Authorised Security Research</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-val">Swisscom Hall of Fame</span>
+                  <span class="metric-desc">25+ valid findings &bull; Solo Securities Hall of Fame</span>
                 </div>
               </div>
               <div class="sidebar-pills">
@@ -1684,6 +1735,17 @@ ul {
                 <span class="meta-key">Engagement</span>
                 <span class="meta-val">Bug Bounty &amp; Responsible Disclosure</span>
               </div>
+              <div class="meta-row">
+                <span class="meta-key">Certifications</span>
+                <span class="meta-val">CEH &bull; eCPPT &bull; eWPTX &bull; eJPT</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-key">Looking For</span>
+                <span class="meta-val">
+                  Entry-level Penetration Testing / AppSec roles<br>
+                  <span class="meta-sub">and continued bug bounty work</span>
+                </span>
+              </div>
             </div>
           </div>
 
@@ -1703,6 +1765,11 @@ ul {
               <p>
                 I continuously improve my practical skills through bug bounty programmes, PortSwigger Web Security
                 Academy, Hack With Me, and hands-on laboratory research.
+              </p>
+              <p>
+                I am working towards an entry-level penetration testing or application security role, alongside a
+                growing bug bounty record. I hold the <strong>CEH</strong>, <strong>eCPPT</strong>,
+                <strong>eWPTX</strong> and <strong>eJPT</strong> certifications.
               </p>
             </div>
 
@@ -1879,7 +1946,7 @@ ul {
             <h2 class="section-heading">Security Research &amp; Selected Findings</h2>
           </div>
           <div class="section-header-note">
-            <span class="mono-badge">SANITIZED VULNERABILITY RESEARCH</span>
+            <span class="mono-badge">SANITISED VULNERABILITY RESEARCH</span>
           </div>
         </div>
 
@@ -1892,8 +1959,52 @@ ul {
         <div class="research-table" role="list">
 
           <!-- Case 01 -->
-          <div class="research-row" role="listitem" tabindex="0" data-case="swisscom">
+          <div class="research-row" role="listitem" tabindex="0" data-case="myswisscom">
             <div class="row-index">01</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">MySwisscom &ndash; BOLA / IDOR via HTTP Parameter Pollution</h3>
+                <span class="status-pill status-pill-accepted">Swisscom Hall of Fame</span>
+              </div>
+              <p class="row-desc">
+                Broken object-level authorisation reachable through HTTP Parameter Pollution on the customer
+                identifier parameter, reported through the Swisscom Bug Bounty Program.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">BOLA &bull; IDOR &bull; HTTP Parameter Pollution</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+          <!-- Case 02 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="swisscomassets">
+            <div class="row-index">02</div>
+            <div class="row-main">
+              <div class="row-header">
+                <h3 class="row-title">Swisscom Assets &ndash; 25+ Valid Findings</h3>
+                <span class="status-pill status-pill-accepted">Swisscom Hall of Fame</span>
+              </div>
+              <p class="row-desc">
+                More than 25 valid findings across Swisscom assets, covering broken access control and user
+                enumeration.
+              </p>
+              <div class="row-meta">
+                <span class="row-category">Broken Access Control &bull; User Enumeration &bull; Bug Bounty</span>
+              </div>
+            </div>
+            <div class="row-action">
+              <span class="action-text">Sanitised Summary</span>
+              <span class="action-arrow">&#8594;</span>
+            </div>
+          </div>
+
+          <!-- Case 03 -->
+          <div class="research-row" role="listitem" tabindex="0" data-case="swisscom">
+            <div class="row-index">03</div>
             <div class="row-main">
               <div class="row-header">
                 <h3 class="row-title">Enterprise Security Research</h3>
@@ -1915,7 +2026,7 @@ ul {
 
           <!-- Case 02 -->
           <div class="research-row" role="listitem" tabindex="0" data-case="ratelimit">
-            <div class="row-index">02</div>
+            <div class="row-index">04</div>
             <div class="row-main">
               <div class="row-header">
                 <h3 class="row-title">Authentication Rate-Limiting Research</h3>
@@ -1938,7 +2049,7 @@ ul {
 
           <!-- Case 03 -->
           <div class="research-row" role="listitem" tabindex="0" data-case="idor">
-            <div class="row-index">03</div>
+            <div class="row-index">05</div>
             <div class="row-main">
               <div class="row-header">
                 <h3 class="row-title">Access Control Research (IDOR / BOLA)</h3>
@@ -1961,7 +2072,7 @@ ul {
 
           <!-- Case 04 -->
           <div class="research-row" role="listitem" tabindex="0" data-case="ato">
-            <div class="row-index">04</div>
+            <div class="row-index">06</div>
             <div class="row-main">
               <div class="row-header">
                 <h3 class="row-title">Account Security &amp; Takeover Research</h3>
@@ -1994,9 +2105,240 @@ ul {
             </p>
           </div>
           <div class="platform-links">
-            <a href="https://github.com/jatinsec/jatinsec" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/swisscom/bugbounty/tree/main/hall-of-fame" target="_blank"
+              rel="noopener noreferrer" class="platform-link">Swisscom Hall of Fame &#8599;</a>
+            <a href="https://solosecurities.com/hall-of-fame" target="_blank" rel="noopener noreferrer"
+              class="platform-link">Solo Securities Hall of Fame &#8599;</a>
+            <a href="https://github.com/jatinsec/my-cves" target="_blank" rel="noopener noreferrer"
+              class="platform-link">CVE Research &#8599;</a>
+            <a href="https://github.com/jatinsec" target="_blank" rel="noopener noreferrer"
               class="platform-link">GitHub Profile &#8599;</a>
           </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         4. RECOGNITION & CERTIFICATIONS
+    ================================================ -->
+    <section class="section border-top" id="recognition">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-tag">04 / RECOGNITION</span>
+            <h2 class="section-heading">Recognition &amp; Certifications</h2>
+          </div>
+          <div class="section-header-note">
+            <span class="mono-badge">PUBLIC &amp; VERIFIABLE</span>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          Hall-of-fame listings, programme recognition, CVE research and professional certifications.
+          Testing is always limited to assets explicitly in scope, under each programme&rsquo;s rules: rate limits
+          respected, no destructive testing, and minimal proof-of-concept access to other users&rsquo; data.
+        </p>
+
+        <div class="focus-grid">
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">01</span>
+              <span class="focus-cat-tag">HALL OF FAME</span>
+            </div>
+            <h3 class="focus-card-title">Swisscom Bug Bounty Program</h3>
+            <p class="focus-card-desc">
+              BOLA / IDOR via HTTP Parameter Pollution on MySwisscom, plus 25+ valid findings on Swisscom assets
+              covering broken access control and user enumeration.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/swisscom/bugbounty/tree/main/hall-of-fame"
+                target="_blank" rel="noopener noreferrer">Hall of Fame &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">02</span>
+              <span class="focus-cat-tag">HALL OF FAME</span>
+            </div>
+            <h3 class="focus-card-title">Solo Securities</h3>
+            <p class="focus-card-desc">
+              Listed in the Solo Securities Hall of Fame for responsibly disclosed security findings.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://solosecurities.com/hall-of-fame" target="_blank"
+                rel="noopener noreferrer">Hall of Fame &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">03</span>
+              <span class="focus-cat-tag">PROGRAMMES</span>
+            </div>
+            <h3 class="focus-card-title">Other Recognised Programmes</h3>
+            <p class="focus-card-desc">
+              Recognition through the Google, Epic Games, Kia, Kagi, HML and Solo Securities programmes.
+            </p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">04</span>
+              <span class="focus-cat-tag">CVE RESEARCH</span>
+            </div>
+            <h3 class="focus-card-title">CVE Research</h3>
+            <p class="focus-card-desc">
+              Public record of CVE research and coordinated vulnerability disclosure work.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/my-cves" target="_blank"
+                rel="noopener noreferrer">jatinsec/my-cves &#8599;</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="platform-bar">
+          <div class="platform-text">
+            <span class="platform-label">CERTIFICATIONS</span>
+            <p class="platform-summary">Professional penetration testing and ethical hacking certifications.</p>
+          </div>
+          <div class="platform-links">
+            <span class="platform-link">CEH</span>
+            <span class="platform-link">eCPPT</span>
+            <span class="platform-link">eWPTX</span>
+            <span class="platform-link">eJPT</span>
+          </div>
+        </div>
+
+        <div class="platform-bar bar-spaced">
+          <div class="platform-text">
+            <span class="platform-label">VULNERABILITY CLASSES FOUND</span>
+            <div class="skill-tags-wrap" style="margin-top: 0.6rem;">
+              <span class="tag">RCE</span>
+              <span class="tag">SQL Injection</span>
+              <span class="tag">Command Injection</span>
+              <span class="tag">Broken Authentication</span>
+              <span class="tag">Hardcoded Credentials</span>
+              <span class="tag">SSRF</span>
+              <span class="tag">Buffer Overflow</span>
+              <span class="tag">XSS</span>
+              <span class="tag">IDOR</span>
+              <span class="tag">CSRF</span>
+              <span class="tag">Information Disclosure</span>
+              <span class="tag">BOLA</span>
+              <span class="tag">Security Misconfiguration</span>
+              <span class="tag">Sensitive Data in URLs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         4b. PROJECTS
+    ================================================ -->
+    <section class="section border-top" id="projects">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-tag">05 / PROJECTS</span>
+            <h2 class="section-heading">Selected Original Projects</h2>
+          </div>
+          <div class="section-header-note">
+            <span class="mono-badge">OPEN SOURCE</span>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          Tools and research built to support authorised testing and lab work. They are intended for authorised
+          testing and lab use only.
+        </p>
+
+        <div class="focus-grid">
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">01</span>
+              <span class="focus-cat-tag">RECON ORGANISER</span>
+            </div>
+            <h3 class="focus-card-title">ReconFlow</h3>
+            <p class="focus-card-desc">
+              Organises authorised-scope recon results: normalises targets, validates scope, parses existing scan
+              output (it is not a scanner) and exports JSON/CSV.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/ReconFlow" target="_blank"
+                rel="noopener noreferrer">GitHub &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">02</span>
+              <span class="focus-cat-tag">API ASSESSMENT</span>
+            </div>
+            <h3 class="focus-card-title">API-Sentinel</h3>
+            <p class="focus-card-desc">
+              Checklist-driven API assessment tracker with Markdown and JSON report generation, demonstrated on a
+              local lab API.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/API-Sentinel" target="_blank"
+                rel="noopener noreferrer">GitHub &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">03</span>
+              <span class="focus-cat-tag">DETECTION LAB</span>
+            </div>
+            <h3 class="focus-card-title">PurpleTrace</h3>
+            <p class="focus-card-desc">
+              Lab toolkit that generates benign events to validate logging and detection rules, with
+              investigation steps for each scenario.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/PurpleTrace" target="_blank"
+                rel="noopener noreferrer">GitHub &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">04</span>
+              <span class="focus-cat-tag">RECON HELPER</span>
+            </div>
+            <h3 class="focus-card-title">google-dork-generator</h3>
+            <p class="focus-card-desc">
+              Google dork generator for authorised bug bounty reconnaissance.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/google-dork-generator" target="_blank"
+                rel="noopener noreferrer">GitHub &#8599;</a>
+            </div>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-card-header">
+              <span class="focus-index">05</span>
+              <span class="focus-cat-tag">RESEARCH</span>
+            </div>
+            <h3 class="focus-card-title">v8-string-memory-research</h3>
+            <p class="focus-card-desc">
+              Research with a Node.js cross-check on V8 SlicedString and ConsString substring memory retention.
+            </p>
+            <div class="card-links">
+              <a class="card-link" href="https://github.com/jatinsec/v8-string-memory-research" target="_blank"
+                rel="noopener noreferrer">GitHub &#8599;</a>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -2010,11 +2352,12 @@ ul {
         <div class="editorial-grid">
 
           <div class="grid-left">
-            <span class="section-tag">04 / SKILLS</span>
+            <span class="section-tag">06 / SKILLS</span>
             <h2 class="section-heading">Technical Skills</h2>
             <p class="section-subtext">
-              Organized capabilities across web application security, API testing, bug hunting reconnaissance,
-              scripting, network protocols, and defensive security fundamentals.
+              Organised capabilities across web application security, API testing, reconnaissance, scripting
+              and defensive fundamentals. Strongest with Burp Suite, Subfinder, httpx, Nuclei and curl, and still
+              building depth elsewhere.
             </p>
           </div>
 
@@ -2035,6 +2378,9 @@ ul {
                   <span class="tag">JWT</span>
                   <span class="tag">Access Control</span>
                   <span class="tag">Business Logic</span>
+                  <span class="tag">HTTP Parameter Pollution</span>
+                  <span class="tag">CORS Misconfiguration</span>
+                  <span class="tag">File Upload Security</span>
                 </div>
               </div>
 
@@ -2056,10 +2402,12 @@ ul {
                 <div class="skill-cat-title">RECONNAISSANCE &amp; BUG HUNTING TOOLS</div>
                 <div class="skill-tags-wrap">
                   <span class="tag tag-accent">Burp Suite</span>
+                  <span class="tag">OWASP ZAP</span>
+                  <span class="tag tag-accent">curl</span>
                   <span class="tag tag-accent">Nuclei</span>
-                  <span class="tag tag-accent">FFUF</span>
-                  <span class="tag">httpx</span>
-                  <span class="tag">Subfinder</span>
+                  <span class="tag">FFUF</span>
+                  <span class="tag tag-accent">httpx</span>
+                  <span class="tag tag-accent">Subfinder</span>
                   <span class="tag">Amass</span>
                   <span class="tag">Assetfinder</span>
                   <span class="tag">Katana</span>
@@ -2089,8 +2437,21 @@ ul {
                   <span class="tag">HTTP / HTTPS</span>
                   <span class="tag">TLS</span>
                   <span class="tag">Linux</span>
+                  <span class="tag">Kali Linux</span>
+                  <span class="tag">Ubuntu / WSL</span>
                   <span class="tag">Windows</span>
                   <span class="tag">Wireshark</span>
+                </div>
+              </div>
+
+              <div class="skill-category-row">
+                <div class="skill-cat-title">REPORTING &amp; DISCLOSURE</div>
+                <div class="skill-tags-wrap">
+                  <span class="tag">Reproducible PoC Write-ups</span>
+                  <span class="tag">CVSS Scoring</span>
+                  <span class="tag">Impact Assessment</span>
+                  <span class="tag">Scope Verification</span>
+                  <span class="tag">Responsible Disclosure Workflow</span>
                 </div>
               </div>
 
@@ -2119,7 +2480,7 @@ ul {
       <div class="container">
         <div class="section-title-row">
           <div>
-            <span class="section-tag">05 / METHODOLOGY</span>
+            <span class="section-tag">07 / METHODOLOGY</span>
             <h2 class="section-heading">How I Approach Security Research</h2>
           </div>
         </div>
@@ -2179,7 +2540,7 @@ ul {
         <div class="editorial-grid">
 
           <div class="grid-left">
-            <span class="section-tag">06 / RESEARCH</span>
+            <span class="section-tag">08 / PRACTICE</span>
             <h2 class="section-heading">Independent Security Research</h2>
             <div class="education-block">
               <h3 class="edu-degree">Independent Cybersecurity Researcher</h3>
@@ -2268,11 +2629,11 @@ ul {
     <section class="section border-top" id="contact">
       <div class="container">
         <div class="contact-editorial">
-          <span class="section-tag">07 / GET IN TOUCH</span>
+          <span class="section-tag">09 / GET IN TOUCH</span>
           <h2 class="contact-heading">&ldquo;Let&rsquo;s talk security.&rdquo;</h2>
           <p class="contact-sub">
-            Interested in security research, penetration testing, or cybersecurity opportunities? Feel free to
-            reach out directly.
+            Open to entry-level penetration testing and application security roles, and to security research
+            collaboration. Feel free to reach out directly.
           </p>
 
           <div class="contact-email-box">
@@ -2289,9 +2650,9 @@ ul {
 
             <div class="contact-btns">
               <a href="mailto:jatin.security@gmail.com" class="btn btn-primary">Email Me</a>
-              <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank"
+              <a href="https://www.linkedin.com/in/jatinsec/" target="_blank"
                 rel="noopener noreferrer" class="btn btn-ghost">LinkedIn &#8599;</a>
-              <a href="https://github.com/jatinsec/jatinsec" target="_blank"
+              <a href="https://github.com/jatinsec" target="_blank"
                 rel="noopener noreferrer" class="btn btn-ghost">GitHub &#8599;</a>
             </div>
           </div>
@@ -2311,10 +2672,9 @@ ul {
       </div>
 
       <div class="footer-links">
-        <a href="https://github.com/jatinsec/jatinsec" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/jatinsec" target="_blank" rel="noopener noreferrer">GitHub</a>
         <span class="footer-sep">&bull;</span>
-        <a href="https://www.linkedin.com/in/jatin-patidar-57b620401/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <span class="footer-sep">&bull;</span>
+        <a href="https://www.linkedin.com/in/jatinsec/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <span class="footer-sep">&bull;</span>
         <a href="mailto:jatin.security@gmail.com">Email</a>
       </div>
@@ -2410,8 +2770,52 @@ function initResearchModal() {
   if (!modal || !modalTitle || !modalBody) return;
 
   var cases = {
-    'swisscom': {
+    'myswisscom': {
       tag:        'CASE REF #01',
+      status:     'Swisscom Hall of Fame',
+      statusType: 'accepted',
+      title:      'MySwisscom - BOLA / IDOR via HTTP Parameter Pollution',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Customer Portal / Access Control</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>BOLA / IDOR via HTTP Parameter Pollution</strong></div>',
+        '  <div class="m-grid-item"><span>PROGRAMME</span><strong>Swisscom Bug Bounty Program</strong></div>',
+        '  <div class="m-grid-item"><span>RECOGNITION</span><strong style="color:var(--accent-green)">Hall of Fame</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>Broken object-level authorisation in MySwisscom, reachable through HTTP Parameter Pollution on the customer identifier parameter (scn).</p>',
+        '<h4>Scope &amp; Conduct</h4>',
+        '<p>Testing stayed within assets explicitly in scope and under the programme rules, including rate limits, no destructive testing, and minimal proof-of-concept access to other users&rsquo; data. Specific requests and customer data are omitted.</p>',
+        '<h4>Potential Impact</h4>',
+        '<p>Object-level authorisation flaws of this class can expose one customer&rsquo;s records to a different account holder.</p>',
+        '<h4>Remediation Guidance (General)</h4>',
+        '<p>Resolve duplicate parameters deterministically, derive the customer identity from the authenticated session rather than a client-supplied identifier, and enforce server-side ownership checks on every object access.</p>'
+      ].join('\n')
+    },
+
+    'swisscomassets': {
+      tag:        'CASE REF #02',
+      status:     'Swisscom Hall of Fame',
+      statusType: 'accepted',
+      title:      'Swisscom Assets - 25+ Valid Findings',
+      html: [
+        '<div class="modal-meta-grid">',
+        '  <div class="m-grid-item"><span>DOMAIN</span><strong>Enterprise Web Assets</strong></div>',
+        '  <div class="m-grid-item"><span>CATEGORY</span><strong>Broken Access Control &amp; User Enumeration</strong></div>',
+        '  <div class="m-grid-item"><span>PROGRAMME</span><strong>Swisscom Bug Bounty Program</strong></div>',
+        '  <div class="m-grid-item"><span>VALID FINDINGS</span><strong style="color:var(--accent-green)">25+</strong></div>',
+        '</div>',
+        '<h4>Overview (Sanitised)</h4>',
+        '<p>More than 25 valid findings across Swisscom assets, covering broken access control and user enumeration issues reported through the programme.</p>',
+        '<h4>Scope &amp; Conduct</h4>',
+        '<p>All testing followed the programme rules and scope. Individual reports, URLs and customer information are not reproduced here.</p>',
+        '<h4>Remediation Guidance (General)</h4>',
+        '<p>Enforce authorisation checks on the server for every protected function and object, and return uniform responses on authentication and account-lookup endpoints so that valid accounts cannot be enumerated.</p>'
+      ].join('\n')
+    },
+
+    'swisscom': {
+      tag:        'CASE REF #03',
       status:     'Reported / Responsible Disclosure',
       statusType: 'disclosure',
       title:      'Enterprise Security Research',
@@ -2434,7 +2838,7 @@ function initResearchModal() {
     },
 
     'ratelimit': {
-      tag:        'CASE REF #02',
+      tag:        'CASE REF #04',
       status:     'Responsible Disclosure',
       statusType: 'disclosure',
       title:      'Authentication Rate-Limiting Research',
@@ -2457,7 +2861,7 @@ function initResearchModal() {
     },
 
     'idor': {
-      tag:        'CASE REF #03',
+      tag:        'CASE REF #05',
       status:     'Responsible Disclosure',
       statusType: 'disclosure',
       title:      'Access Control Research (IDOR / BOLA)',
@@ -2480,7 +2884,7 @@ function initResearchModal() {
     },
 
     'ato': {
-      tag:        'CASE REF #04',
+      tag:        'CASE REF #06',
       status:     'Research &amp; Testing',
       statusType: 'research',
       title:      'Account Security &amp; Takeover Research',
